@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-color: #025880;
+  font-family: 'Open sans';
+}
+.container{
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img-container {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+.produk-cat {
+  background-color: #12a1b4;
+  color: white;
+  font-size: 12px;
+  margin: 5px 0;
+  width: 50px;
+  border-radius: 0 10px 10px 0;
+  padding: 3px;
+}
+.card-body {
+  margin: 10px;
+}
+.produk-title {
+  font-family: Oswald;
+  font-size: 25px;
+}
+.produk-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.discount {
+  background-color: #05d1ec;
+  color: #0a86ac;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.real-price {
+  font-size: 12px;
+  text-decoration: line-through;
+  font-style: italic;
+  color: #89A6AD;
+}
+.button {
+  margin: 10px 0;
+}
+.button-buy {
+  width: 100%;
+  background-color: #F78040;
+  padding: 5px;
+  border: 1px solid #F78040;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-buy:hover {
+  background-color: #f79c26;
+}
+.button-buy:active {
+  background-color: #c47207;
+}
+
+@media only screen and (min-width : 960px) {
+  .container {
+    grid-template-columns: auto auto auto auto;
+  }
+}
